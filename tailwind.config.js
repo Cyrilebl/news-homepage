@@ -12,7 +12,7 @@ module.exports = {
         white: "#FFFDFA",
         title: "#00001A",
         titlesecondary: "#E9AA52",
-        btn: "#F15D51",
+        success: "#F15D51",
       },
     },
   },

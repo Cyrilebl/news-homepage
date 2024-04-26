@@ -672,11 +672,6 @@ video {
   border-color: rgb(197 198 206 / 0.5);
 }
 
-.bg-btn{
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 93 81 / var(--tw-bg-opacity));
-}
-
 .bg-title{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 26 / var(--tw-bg-opacity));
@@ -685,6 +680,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 253 250 / var(--tw-bg-opacity));
+}
+
+.bg-success{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 93 81 / var(--tw-bg-opacity));
 }
 
 .px-10{
@@ -790,6 +790,12 @@ video {
   color: rgb(255 253 250 / var(--tw-text-opacity));
 }
 
+.shadow-2xl{
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-xl{
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -817,14 +823,14 @@ video {
   background-color: rgb(0 0 26 / var(--tw-bg-opacity));
 }
 
-.hover\:text-btn:hover{
-  --tw-text-opacity: 1;
-  color: rgb(241 93 81 / var(--tw-text-opacity));
-}
-
 .hover\:text-titlesecondary:hover{
   --tw-text-opacity: 1;
   color: rgb(233 170 82 / var(--tw-text-opacity));
+}
+
+.hover\:text-success:hover{
+  --tw-text-opacity: 1;
+  color: rgb(241 93 81 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1280px){
@@ -896,11 +902,6 @@ video {
     margin-right: 10rem;
   }
 
-  .xl\:my-14{
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-  }
-
   .xl\:my-16{
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -918,24 +919,12 @@ video {
     margin-top: 3rem;
   }
 
-  .xl\:mt-20{
-    margin-top: 5rem;
-  }
-
-  .xl\:mt-14{
-    margin-top: 3.5rem;
-  }
-
   .xl\:w-2\/5{
     width: 40%;
   }
 
   .xl\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .xl\:grid-cols-\[70\%_30\%\]{
-    grid-template-columns: 70% 30%;
   }
 
   .xl\:grid-cols-\[69\%_31\%\]{
