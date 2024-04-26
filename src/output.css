@@ -620,6 +620,25 @@ video {
   display: grid;
 }
 
+.size-4\/5{
+  width: 80%;
+  height: 80%;
+}
+
+.size-3\/4{
+  width: 75%;
+  height: 75%;
+}
+
+.size-2\/4{
+  width: 50%;
+  height: 50%;
+}
+
+.h-2\/5{
+  height: 40%;
+}
+
 .w-11\/12{
   width: 91.666667%;
 }
@@ -660,6 +679,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .self-center{
   align-self: center;
 }
@@ -691,6 +714,10 @@ video {
   background-color: rgb(255 253 250 / var(--tw-bg-opacity));
 }
 
+.p-7{
+  padding: 1.75rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -706,12 +733,38 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pb-3{
   padding-bottom: 0.75rem;
 }
 
 .pt-4{
   padding-top: 1rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
+}
+
+.pr-3{
+  padding-right: 0.75rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
 }
 
 .font-main{
@@ -886,6 +939,11 @@ video {
     display: none;
   }
 
+  .md\:size-1\/4{
+    width: 25%;
+    height: 25%;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -900,6 +958,13 @@ video {
   }
 }
 
+@media (min-width: 1024px){
+  .lg\:size-1\/4{
+    width: 25%;
+    height: 25%;
+  }
+}
+
 @media (min-width: 1280px){
   .xl\:mx-40{
     margin-left: 10rem;
@@ -909,6 +974,11 @@ video {
   .xl\:my-16{
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+
+  .xl\:my-10{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .xl\:mb-10{
@@ -921,6 +991,54 @@ video {
 
   .xl\:mt-12{
     margin-top: 3rem;
+  }
+
+  .xl\:size-4\/5{
+    width: 80%;
+    height: 80%;
+  }
+
+  .xl\:size-3\/5{
+    width: 60%;
+    height: 60%;
+  }
+
+  .xl\:size-1\/2{
+    width: 50%;
+    height: 50%;
+  }
+
+  .xl\:size-1\/4{
+    width: 25%;
+    height: 25%;
+  }
+
+  .xl\:size-2\/5{
+    width: 40%;
+    height: 40%;
+  }
+
+  .xl\:size-1\/5{
+    width: 20%;
+    height: 20%;
+  }
+
+  .xl\:size-2\/6{
+    width: 33.333333%;
+    height: 33.333333%;
+  }
+
+  .xl\:size-3\/4{
+    width: 75%;
+    height: 75%;
+  }
+
+  .xl\:h-2\/5{
+    height: 40%;
+  }
+
+  .xl\:h-4\/5{
+    height: 80%;
   }
 
   .xl\:w-2\/5{
@@ -937,6 +1055,18 @@ video {
 
   .xl\:gap-0{
     gap: 0px;
+  }
+
+  .xl\:gap-3{
+    gap: 0.75rem;
+  }
+
+  .xl\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .xl\:gap-2{
+    gap: 0.5rem;
   }
 
   .xl\:text-6xl{
